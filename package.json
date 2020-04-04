@@ -12,6 +12,11 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "express-ws": "^4.0.0",
+    "mongoose": "^5.9.5",
+    "nodemon": "1.18.3"
+  },
   "bugs": {
     "url": "https://github.com/raresmigea/restTest/issues"
   },
