@@ -16,7 +16,9 @@ router.get('/specific', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-	console.log(req.body);
+	const newPost = new Post (req.body);
+	newPost.save();
+	res.end();
 });
 
 
