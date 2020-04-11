@@ -1,4 +1,4 @@
-const express = require("express");
+const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -29,7 +29,7 @@ app.use('/', postsRoute);
 // });
 
 //connect to database
-mongoose.connect('mongodb+srv://raresmigea:notsassodark@cluster0-ptmqz.mongodb.net/test',
+mongoose.connect(process.env.DB_CONNECTION,
 	{ useNewUrlParser: true },
 	() => console.log("connected to database!"));
 

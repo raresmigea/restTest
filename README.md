@@ -41,7 +41,7 @@ nodemon start
 👤 **raresmigea**
 
 * Github: [@raresmigea](https://github.com/raresmigea)
-* LinkedIn: [@https:\/\/www.linkedin.com\/in\/rares992\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/rares992\/)
+* LinkedIn: [@rares992](https://linkedin.com/in/rares992)
 
 ## 🤝 Contributing
 
