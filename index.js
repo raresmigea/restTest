@@ -29,9 +29,8 @@ app.use('/', postsRoute);
 // });
 
 //connect to database
-mongoose.connect(process.env.DB_CONNECTION,
-	{ useNewUrlParser: true },
-	() => console.log("connected to database!"));
-
+mongoose.connect(process.env.DB_CONNECTION, { useNewUrlParser: true }, () =>
+  console.log('connected to database!')
+);
 
 app.listen(3000);

@@ -40,8 +40,8 @@ nodemon start
 
 👤 **raresmigea**
 
-* Github: [@raresmigea](https://github.com/raresmigea)
-* LinkedIn: [@rares992](https://linkedin.com/in/rares992)
+- Github: [@raresmigea](https://github.com/raresmigea)
+- LinkedIn: [@rares992](https://linkedin.com/in/rares992)
 
 ## 🤝 Contributing
 
@@ -56,5 +56,6 @@ Give a ⭐️ if this project helped you!
 Copyright © 2020 [raresmigea](https://github.com/raresmigea).<br />
 This project is [MIT](https://github.com/raresmigea/restTest/blob/master/LICENSE) licensed.
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
