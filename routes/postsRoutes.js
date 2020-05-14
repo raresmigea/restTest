@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const Post = require('../models/Post');
+const Post = require('../models/Post').default;
 
 router.get('/posts', (req, res) => {
   res.send('we are on posts');
