@@ -1,7 +1,7 @@
-const express = require('express');
-const router = express.Router();
+import { Router } from 'express';
+const router = Router();
 
-const Post = require('../models/Post').default;
+import Post from '../models/Post';
 
 router.get('/posts', (req, res) => {
   res.send('we are on posts');
@@ -21,4 +21,4 @@ router.post('/', (req, res) => {
   res.end();
 });
 
-module.exports = router;
+export default router;
