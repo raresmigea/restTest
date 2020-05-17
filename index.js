@@ -16,7 +16,6 @@ app.use(bodyParser.json());
 const postsRoute = require('./routes/postsRoutes');
 
 //middleware
-
 app.use('/', postsRoute);
 
 //routes
