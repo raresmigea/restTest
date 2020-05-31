@@ -1,19 +1,19 @@
-const express = require('express');
+import express from 'express';
 const app = express();
-const mongoose = require('mongoose');
-const bodyParser = require('body-parser');
+import { connect } from 'mongoose';
+import { json } from 'body-parser';
 
-require('dotenv/config');
+import 'dotenv/config';
 
 //middleware - functions that executes when routes are being hit
 // app.use('/posts', (req, res) => {
 // 	console.log('this is middleware');
 // });
 
-app.use(bodyParser.json());
+app.use(json());
 
 //import routes
-const postsRoute = require('./routes/postsRoutes');
+import postsRoute from './routes/postsRoutes';
 
 //middleware
 app.use('/', postsRoute);
@@ -28,8 +28,8 @@ app.use('/', postsRoute);
 // });
 
 //connect to database
-mongoose.connect(process.env.DB_CONNECTION, { useNewUrlParser: true }, () =>
-  console.log('connected to database!')
+connect(process.env.DB_CONNECTION, { useNewUrlParser: true }, () =>
+  console.log('connected to database.')
 );
 
 app.listen(3000);

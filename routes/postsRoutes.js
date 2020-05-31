@@ -4,15 +4,15 @@ const router = Router();
 import Post from '../models/Post';
 
 router.get('/posts', (req, res) => {
-  res.send('we are on posts');
+  res.send('we are on posts.');
 });
 
 router.get('/', (req, res) => {
-  res.send('we are at home');
+  res.send('we are at home.');
 });
 
 router.get('/specific', (req, res) => {
-  res.send('specific posts');
+  res.send('specific posts.');
 });
 
 router.post('/', (req, res) => {
