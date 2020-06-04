@@ -1,7 +1,8 @@
 import express from 'express';
-const app = express();
 import { connect } from 'mongoose';
 import { json } from 'body-parser';
+
+const app = express();
 
 import 'dotenv/config';
 
