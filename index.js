@@ -8,10 +8,9 @@ import 'dotenv/config';
 
 app.use(json());
 
-//import routes
 import postsRoute from './routes/postsRoutes';
 
-//middleware
+//postsRoute - it's a middleware
 app.use('/', postsRoute);
 
 //connect to database
