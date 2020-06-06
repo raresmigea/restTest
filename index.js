@@ -13,7 +13,6 @@ import postsRoute from './routes/postsRoutes';
 //postsRoute - it's a middleware
 app.use('/', postsRoute);
 
-//connect to database
 connect(process.env.DB_CONNECTION, { useNewUrlParser: true }, () =>
   console.log('connected to database.')
 );
