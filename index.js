@@ -10,7 +10,6 @@ app.use(json());
 
 import postsRoute from './routes/postsRoutes';
 
-//postsRoute - it's a middleware
 app.use('/', postsRoute);
 
 connect(process.env.DB_CONNECTION, { useNewUrlParser: true }, () =>
