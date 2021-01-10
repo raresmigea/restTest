@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/raresmigea/restTest.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "raresmigea",
+  "license": "MIT",
   "dependencies": {
     "bl": "^4.0.3",
     "dot-prop": "^5.2.0",
