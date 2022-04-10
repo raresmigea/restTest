@@ -18,7 +18,7 @@
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "express-ws": "^5.0.2",
-    "mongoose": "^6.2.7",
+    "mongoose": "^6.2.10",
     "nodemon": "^2.0.15",
     "process-env": "^2.0.2"
   },
